@@ -61,4 +61,4 @@ for epoch in range(EPOCH):
         if step % 50 == 0:
             print('Epoch:', epoch, '| tran loss : %.4f' % loss.data.cpu().numpy())
         # We don't provide the average training error and validation error
-torch.save(autoencoder.state_dict(), 'AE-celx(200).pkl')  # save the parameter values of neural network
+torch.save(autoencoder.state_dict(), 'AE-trained.pkl')  # save the parameter values of neural network
