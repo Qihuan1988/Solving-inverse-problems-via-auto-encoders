@@ -41,7 +41,7 @@ test_images=300
 sumPSNR=np.zeros(len(m))
 Noise_exist=False
 if Noise_exist==True:
-    start_num=3
+    start_num=1
 else:
     start_num=0
 for cc in range(start_num,len(m)):
