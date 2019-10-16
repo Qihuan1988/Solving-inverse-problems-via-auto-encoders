@@ -46,7 +46,7 @@ if Noise_exist==True:
     start_num=3
 else:
     start_num=0
-for cc in range(0,len(m)): #for different m values
+for cc in range(start_num,len(m)): #for different m values
     #get the matrix A
     M_no=cc+1
     data1 = sio.loadmat('./MatrixA/A%s'%M_no)
