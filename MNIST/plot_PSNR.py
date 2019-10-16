@@ -24,7 +24,7 @@ for file in range(1,6):
         data1 = sio.loadmat('./Reconstructed Images/BM3D-AMP/%s/im%s' % (file,i))
         output = data1['x_hat']
         output = np.reshape(output,(28*28))
-        origin = np.loadtxt('./Reconstructed Images/Original_Images_data(matlab)/imageorigin%s.txt'%ori)*255
+        origin = np.loadtxt('./Reconstructed Images/Original_Images_data/imageorigin%s.txt'%ori)*255
         origin = np.reshape(origin,(28*28))
         mse = np.sum((output-origin)**2)/28**2
         psnr_bm3d_each[ori] = 10*np.log10(np.max(origin)**2/mse)
