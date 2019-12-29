@@ -4,4 +4,4 @@
 4. Unet-refine.py: using Unet to refine the reconstructed images generated from "AE-PGD_celeba.py";
 5. plot_PSNR.py: plotting the PSNR figure by using the reconstruted images;
 6. plot_images.py: generating some images to show the performance of different method.
-
+The trained neural networks, matrix A, and testing images are stored in the link: https://drive.google.com/open?id=1-pn3EvhRfW1DHgoixKBzWiojD-jbgkMt
