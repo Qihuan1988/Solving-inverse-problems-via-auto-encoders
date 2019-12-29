@@ -1,1 +1,8 @@
-
+AE-PGD-4NNs.py: PGD method by using 4 NNs;
+AE-PGD-NN1.py: PGD method by using 1 large NN;
+AE-PGD-NN2.py: PGD method by using 1 small NN;
+Unet-refine-Xray.py: Refine step by using a trained Unet;
+autoencoder-4NNs.py: train 4 NNs;
+autoencoder-1NN.py: train 1 NNs;
+AE-Unet_train.py: train a Unet;
+The trained neural networks, matrix A, and testing images are stored in the link: https://drive.google.com/open?id=1CDD0wtnnvPM_yA8ty3TRYTYnM7ySoNRa
