@@ -5,4 +5,7 @@ Unet-refine-Xray.py: Refine step by using a trained Unet;
 autoencoder-4NNs.py: train 4 NNs;
 autoencoder-1NN.py: train 1 NNs;
 AE-Unet_train.py: train a Unet;
+
 The trained neural networks, matrix A, and testing images are stored in the link: https://drive.google.com/open?id=1CDD0wtnnvPM_yA8ty3TRYTYnM7ySoNRa
+
+BM3D-AMP method are stored in the link: https://drive.google.com/open?id=1SxWDgQ-tbIiDiyhHqWD1RWhNM5BNvLYN
